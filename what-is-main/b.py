@@ -1,5 +1,5 @@
-print("Hello world from {}".format(__name__))
+print(f"Hello world from {__name__}")
 
 if __name__ == "__main__":
-    print("Hello world again from {}".format(__name__))
+    print(f"Hello world again from {__name__}")
 

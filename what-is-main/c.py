@@ -1,1 +1,1 @@
-print("this is {}".format(__name__))
+print(f"this is {__name__}")

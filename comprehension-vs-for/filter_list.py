@@ -4,9 +4,7 @@ MILLION_NUMBERS = list(range(1_000_000))
 def for_loop():
     # sourcery skip: inline-immediately-returned-variable, list-comprehension
     output = []
-    for element in MILLION_NUMBERS:
-        if not element % 2:
-            output.append(element)
+    output.extend(element for element in MILLION_NUMBERS if not element % 2)
     return output
 
 # run with timeit
