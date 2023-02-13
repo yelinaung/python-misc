@@ -7,7 +7,7 @@ def functionA():
 
 print("before functionB")
 def functionB():
-    print("Function B {}".format(math.sqrt(100)))
+    print(f"Function B {math.sqrt(100)}")
 
 print("before __name__")
 
